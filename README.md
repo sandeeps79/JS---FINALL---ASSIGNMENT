@@ -5,7 +5,7 @@
 
 # Welcome to the RESUME BUILDER WEBSITE 
 ## Introduction
-> + This is a resume Builder website which takes The all the required fields to create a resume based on that it will generate the resume . In this Project I have used HTML , CSS , JS.
+> + This is a resume Builder website which takes all the required fields to create a resume based on that it will generate the resume . In this Project I have used HTML , CSS , JS.
 
 > ### Steps-1
 > +  Runs the index.html file in your browser
