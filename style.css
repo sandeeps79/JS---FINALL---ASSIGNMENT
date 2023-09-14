@@ -63,6 +63,17 @@ button {
 
 }
 
+.creatresumediv{
+    text-align: center;
+    /* margin: 0 auto; */
+}
+
+button#createresumeBtn {
+    width: 25rem;
+    background-color: #f89b30;
+    cursor: pointer;
+}
+
 textarea#Summary,textarea#skills{
     width: 23rem;
     border-radius: 1rem;
