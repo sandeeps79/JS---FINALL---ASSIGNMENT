@@ -3,7 +3,7 @@
 
 # Welcome to the RESUME BUILDER WEBSITE 
 ## Introduction
-> + This is a resume Builder website which contains 4 file . It takes The all the required to create a resume based on that it will generate the resume . In this Project I have used HTML , CSS ,JS.
+> + This is a resume Builder website which takes The all the required fields to create a resume based on that it will generate the resume . In this Project I have used HTML , CSS , JS.
 
 > ### Steps-1
 > +  Runs the index.html file in your browser
@@ -15,6 +15,7 @@
 > + Skills are like the first field is for type of skill like Programming Language, Tools, Databases etc. And second filed contains there subtype like for programming language are HTML,CSS,JS etc.
 > + You can also remove the extra fields that you add onclick of add button and remove it on click of remove button.
 > + on click of Generated Button it will redirect you to next page where you will show your resume.
+> + Fileds value that you have entered all are stored in localstorage i have used indexing of the array ** ResumeInfo  as a id ** to find any resume in the url.
 
 
 > ### Step-3
