@@ -9,6 +9,10 @@
 <body>
    <!-- Generated Resume will go here in this div tag -->
     <div id="resume"></div>
+<!--      resume create button  -->
+    <div class="creatresumediv">
+      <button id="createresumeBtn">Create Another Resume</button>
+    </div>
   <script>
         // This function will called when the user generates resume or serach throgh id(in id i have used indexing of object in array)
         function GenerateResumeHTML(obj) {
@@ -86,6 +90,11 @@
         }
       
      }
+      // Functionality to redirect to index.html on click of create button
+     let createresumebutton=document.getElementById('createresumeBtn');
+     createresumebutton.addEventListener("click",()=>{
+      window.location.href="index.html";
+     })
     </script>
 </body>
 </html>
