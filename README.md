@@ -43,5 +43,7 @@
 > ![Screenshot from 2023-09-14 14-32-42](https://github.com/sandeeps79/JS---FINALL---ASSIGNMENT/assets/140603357/988e1b3c-1536-45c7-b1f9-b1f950de10c0)
 > ### RESUME PAGE(`resume.html`)
 > ![Screenshot from 2023-09-14 14-43-08](https://github.com/sandeeps79/JS---FINALL---ASSIGNMENT/assets/140603357/1c4ce80b-2cd7-4301-a0b1-89a8a7b82af1)
+> ### To change resumes through id go to url and change the id number
+> ![Screenshot from 2023-09-14 14-49-44](https://github.com/sandeeps79/JS---FINALL---ASSIGNMENT/assets/140603357/2c51b03a-8bf5-4496-95db-41cce8c2a588)
 
 
