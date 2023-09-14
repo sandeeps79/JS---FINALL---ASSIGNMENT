@@ -1,5 +1,5 @@
 # JS- FINAL - ASSIGNMENT
-![Banner-9-women](https://github.com/sandeeps79/JS---FINALL---ASSIGNMENT/assets/140603357/67b02cf5-21e8-4c2e-87f7-ef3e7b709be6)
+
 
 
 
@@ -36,4 +36,12 @@
 > +  Allow users to add multiple entries for education and work experience.
 > +  Add styling to make the resume visually appealing.
 > +  Provide the option to save the resume to the local storage so users can revisit it later.
+>
+
+## IMAGES OF WEBSITE
+> ### HOMEPAGE(`index.html`)
+> ![Screenshot from 2023-09-14 14-32-42](https://github.com/sandeeps79/JS---FINALL---ASSIGNMENT/assets/140603357/988e1b3c-1536-45c7-b1f9-b1f950de10c0)
+> ### RESUME PAGE(`resume.html`)
+> ![Screenshot from 2023-09-14 14-43-08](https://github.com/sandeeps79/JS---FINALL---ASSIGNMENT/assets/140603357/1c4ce80b-2cd7-4301-a0b1-89a8a7b82af1)
+
 
