@@ -1,4 +1,6 @@
 # JS- FINAL - ASSIGNMENT
+![Banner-9-women](https://github.com/sandeeps79/JS---FINALL---ASSIGNMENT/assets/140603357/67b02cf5-21e8-4c2e-87f7-ef3e7b709be6)
+
 
 
 # Welcome to the RESUME BUILDER WEBSITE 
