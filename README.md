@@ -45,5 +45,8 @@
 > ![Screenshot from 2023-09-14 14-43-08](https://github.com/sandeeps79/JS---FINALL---ASSIGNMENT/assets/140603357/1c4ce80b-2cd7-4301-a0b1-89a8a7b82af1)
 > ### To change resumes through id go to url and change the id number
 > ![Screenshot from 2023-09-14 14-49-44](https://github.com/sandeeps79/JS---FINALL---ASSIGNMENT/assets/140603357/2c51b03a-8bf5-4496-95db-41cce8c2a588)
+> ### Redirect to create resume on homepage(`index.html`). On click of Create Resume Button it will redirect to create resume.
+> ![Screenshot from 2023-09-14 15-13-09](https://github.com/sandeeps79/JS---FINALL---ASSIGNMENT/assets/140603357/5c415deb-348a-44c4-badd-5acc0678dad0)
+
 
 
