@@ -3,10 +3,10 @@
 
 # Welcome to the RESUME BUILDER WEBSITE 
 ## Introduction
-> This is a resume Builder website which contains 4 file . It takes The all the required to create a resume based on that it will generate the resume . In this Project I have used HTML , CSS ,JS.
+> + This is a resume Builder website which contains 4 file . It takes The all the required to create a resume based on that it will generate the resume . In this Project I have used HTML , CSS ,JS.
 
 ## Steps-1
-> Runs the index.html file in your browser
+> +  Runs the index.html file in your browser
 
 
 ## Step-2 
@@ -18,3 +18,6 @@
 
 
 ## Step-3
+> + In Url you see path like this * /resume.html?id=1 * id number depends on how many resume you have submitted.
+> + for first resume id number starts from 0 , for secound resume id is 1 and show on .....
+> +  In Url by changing the id number you will get diffrent-diffrent resumes.
