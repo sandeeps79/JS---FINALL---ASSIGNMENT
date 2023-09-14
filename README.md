@@ -29,3 +29,9 @@
 > + `resume.html` file contains all the html that will be shown on click of generated button .
 > + `script.js` file contains all the required script of `index.html` Page (front page) .
 > + `style.css` file contains all the css of both the pages `index.html` and `resume.html` .
+
+## Bonus Features (Optional)
+> +  Allow users to add multiple entries for education and work experience.
+> +  Add styling to make the resume visually appealing.
+> +  Provide the option to save the resume to the local storage so users can revisit it later.
+
