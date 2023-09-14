@@ -25,5 +25,5 @@
 ## Files and there Explanation 
 > + `index.html` file contains all the front page HTML .
 > + `resume.html` file contains all the html that will be shown on click of generated button .
-> + `script.js` file contains all the required script of index.html Page (front page) .
+> + `script.js` file contains all the required script of `index.html` Page (front page) .
 > + `style.css` file contains all the css of both the pages `index.html` and `resume.html` .
