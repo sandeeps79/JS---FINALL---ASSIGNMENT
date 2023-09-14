@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Resume Builder</title>
+    <link rel="stylesheet" href="style.css" />
+   
+  </head>
+  <body>
+
+    <div id="resumeInfoContainer">
+      <h1 class="resumeTop">Resume Builder</h1>
+      <div class="section">
+        <!-- All the personal info inputs -->
+        <h3>Personal Information</h3>
+        <input type="text" id="name" placeholder="Name:" /><br />
+        <input type="email" id="email" placeholder="Email:" /><br />
+        <input type="tel" id="phone" placeholder="Phone :" /><br />
+        <input type="text" id="address" placeholder="Address:" /><br />
+        <hr>
+        
+      </div>
+
+      <div class="section">
+        <!-- This section show the summary -->
+        <h3>Summary</h3>
+        <textarea id="Summary" rows="4"></textarea><br />
+        <p class="skills-comma-seprate">Please enter about you in a summary</p>
+        <hr>
+      </div>
+     
+
+      <div class="section">
+        <!-- This section show the Educational inputs -->
+        <h3>Educational Background</h3>
+        <button id="addEducation">Add Education</button>
+        <div id="educationContainer">
+          <div>
+            <input type="text" placeholder="University/School:" required><br>
+               
+          <input type="text" placeholder="Degree/Standard" required><br>
+        
+          <input type="text" placeholder="Graduation Year/ Standard Year " required><br>
+          <hr>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+         <!-- This section show the Work Experience inputs -->
+        <h3>Work Experience</h3>
+        <button id="addExperience">Add Work Experience</button>
+        <div id="experienceContainer">
+          <div>
+            <input type="text" placeholder="Company Name:" required> <br>
+           
+            <input type="text" placeholder="Position:" required><br>
+           
+            <input type="text" placeholder="Duration:" required><br>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <!-- This section is for skills fields  -->
+        <h3>Skills</h3>
+        <button id="addSkill">Add New Skill</button>
+        <div id="SkillContainer">
+          <div>
+            <input type="text" placeholder="Type of Skill">
+         <input type="text" placeholder="Skills :">
+         <hr>
+          </div>
+        </div>
+        <p class="skills-comma-seprate">
+          Please enter the skills in comma seprated format
+        </p>
+      </div>
+      <!-- Button to generate the resume  -->
+      <button id="generateResume">Generate Resume</button>
+    </div>
+
+   <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Generated Resume will go here in this div tag -->
+    <div id="resume"></div>
+  <script>
+        // This function will called when the user generates resume or serach throgh id(in id i have used indexing of object in array)
+        function GenerateResumeHTML(obj) {
+        const resumeHTML = `
+                <div id = 'resumecontainer'>
+                <div id = 'resumecontainerPersonal'>
+                <h2>${obj['PersonalInfo']["name"]}</h2>
+                <p>Email: ${obj['PersonalInfo']["email"]}</p>
+                <p>Phone: ${obj['PersonalInfo']["phone"]}</p>
+                <p>Address: ${obj['PersonalInfo']["address"]}</p>
+                </div>
+                <hr>
+
+                <h2>Summary</h2>
+                <p>${obj["Summary"]}</p>
+                <hr>
+
+                <h2>Education</h2>
+                <ul>
+                    ${obj["educationEntries"]
+                      .map(
+                        (entry) =>
+                          `<li>${entry.university}, ${entry.degree} (${entry.graduationYear})</li>`
+                      )
+                      .join("")}
+                </ul>
+                <hr>
+                <h2>Work Experience</h2>
+                <ul>
+                    ${obj["experienceEntries"]
+                      .map(
+                        (entry) =>
+                          `<li>${entry.company}, ${entry.position} (${entry.duration})</li>`
+                      )
+                      .join("")}
+                </ul>
+                <hr>
+                <h2>Skills</h2>
+                <ul>
+                    ${obj["SkillsEntries"]
+                      .map(
+                        (entry) =>
+                          `<h4 class="sub-skills">${entry.skilltype[0].toUpperCase() +
+        entry.skilltype.slice(1)}</h4> <p>${entry.skills}</p>`
+                      )
+                      .join("")}
+                </ul>
+               
+                
+                </div>
+            `;
+        return resumeHTML;
+      }
+
+      // This one checks the id from url and based on that particular resume will be shown
+      if( window.location.search!=''){
+    
+        let id=window.location.search;
+        [idname,idvalue]=id.split('=');
+        if( !(/^\d+$/.test(idvalue))){
+          alert("only digits are allowed as id");
+         
+        }
+      
+        let prevData = JSON.parse(localStorage.getItem("ResumeInfo")) || [];
+        if(prevData.length<1 || prevData.length<=idvalue ){
+          alert("No Resume Data Exist");
+    
+        }
+        else{
+        let div=GenerateResumeHTML(prevData[idvalue]);
+        document.getElementById("resume").innerHTML = "";
+        document.getElementById("resume").innerHTML = div;
+       
+        }
+      
+     }
+    </script>
+</body>
+</html>
